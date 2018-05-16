@@ -8,27 +8,39 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Página Inicial</title>
+        <link rel="stylesheet" type="text/css"  href="estilo.css" />
         <img src= "Logo_Nova2.jpg">
     </head>
     <body>
        
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
+        
+        <ul class="menu">
+            
+            <nav>
+  <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+            <li><a href="#">O que fazemos?</a>
+                <ul>
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">SEO</a></li>
+                      <li><a href="#">Design</a></li>                    
+                </ul>
+            </li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contato</a></li>                
+</ul>
 						<li >
-							<a href="empresa.php">EMPRESA</a>
-						</li>
+							<a href="empresa.php">EMPRESA</a></li>
 						<li>
-							<a href="pecas.php">PEÇAS</a>
-						</li>
+							<a href="pecas.php">PEÇAS</a></li>
 						<li>
-							<a href="servicos.">SERVIÇOS</a>
-						</li>
+							<a href="servicos.">SERVIÇOS</a></li>
+                                                
 						<li>
-							<a href="contato.php">CONTATO</a>
-						</li>
+							<a href="contato.php">CONTATO</a></li>
                                                 <li>
-							<a href="Administrador.php">ADMINISTRADOR</a>
-						</li>
+							<a href="Administrador.php">ADMINISTRADOR</a></li>
 
 							</ul>
 						</li>

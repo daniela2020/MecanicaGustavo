@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+  //Vamos começar zerando o margin e padding para todos os navegadores, colocaremos 
+ //um estilo de texto para o nosso texto do menu e removeremos os bullets da lista. Depois vamos definir uma borda e colocaremos o float:"left"; para que as bordas fiquem certinhas.
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+ 
+.menu{
+list-style:none; 
+border:1px solid #c0c0c0; 
+float:left; 
+}
