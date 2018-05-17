@@ -23,8 +23,8 @@ and open the template in the editor.
             <li><a href="#">O que fazemos?</a>
                 <ul>
                       <li><a href="#">Web Design</a></li>
-                      <li><a href="#">SEO</a></li>
-                      <li><a href="#">Design</a></li>                    
+                      <li><a href="#">SEOxxxxxx</a></li>
+                      <li><a href="#">Designxxxxx</a></li>                    
                 </ul>
             </li>
         <li><a href="#">Links</a></li>
