@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- As 3 metatags acima * devem * vir em primeiro lugar na cabeça;
     qualquer outro conteúdo principal deve vir * depois * dessas tags -->
-    <title>Mecânica Gustavo</title>
+    <title>Mecânica Gustavo  </title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
