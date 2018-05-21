@@ -54,7 +54,7 @@
             <li><a href="#">Motor</a></li>
             <li><a href="#">Caixa de Câmbio</a></li>
 			<li><a href="#">Diferencial</a></li>
-            <li><a href="#">Direção Hidráulica</a></li>
+            <li><a href="#">Direção Hidráulica leves e pesados</a></li>
 			<li><a href="#">Suspensão e Freios</a></li>
 			<li><a href="#">Reparos Mecânicos</a></li>
             
