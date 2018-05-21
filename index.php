@@ -52,5 +52,7 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
+            <header><h1>Mecânica Gustavo</h1></header>
+      <img src=Logo_Nova2.jpg>
     </body>
 </html>
