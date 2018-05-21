@@ -66,7 +66,7 @@
       
         </div>
         <section>
-            <h2><br><hr>Peças e Serviços,se é a diesel aqui!!<hr> <br></h2>
+            <h2><br><hr>Peças e Serviços para caminhões e camionetas diesel !!<hr> <br></h2>
 
     </section>
       
