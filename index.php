@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- As 3 metatags acima * devem * vir em primeiro lugar na cabeça;
@@ -19,6 +20,8 @@
     <![endif]-->
   </head>
   <body>
+      <header><h1>Mecânica Gustavo</h1></header>
+      <img src=Logo_Nova2.jpg>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -29,15 +32,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-	  <a class="navbar-brand" href="#">Home</a>
+	  <a class="navbar-brand" href="index.php">Home</a>
+          
+          
+          
+          
     </div>
+    
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Empresa</a></li>
-        <li class=><a href="#">Peças</a></li>
-        <li><a href="#">Contato</a></li>
+          <li><a href="Empresa.php">Empresa</a></li>
+          <li class=><a href="Pecas.php">Peças</a></li>
+          <li><a href="Servicos.php">Serviços</a></li>
+          <li><a href="Contato.php">Contato</a></li>
+          
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -55,7 +65,10 @@
       </ul>
       
         </div>
-        
+        <section>
+            <h2><br><hr>Peças e Serviços,se é a diesel aqui!!<hr> <br></h2>
+
+    </section>
       
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -65,5 +78,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <ul>
+        <li>   <img src="imagens/Logo_Nova2.jpg"></li>
+    </ul>
+    
   </body>
 </html>
