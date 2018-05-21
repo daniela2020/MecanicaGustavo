@@ -65,7 +65,12 @@
             <?php
 
 
-echo  "Bem vindo <br>";
+echo  "A Mecânica Gustavo foi fundada no ano 1985, pelo Sr. Plínio Gustavo Machado Sampaio, mecânico com mais de 30 anos de experiência.<br>";
+echo  "Desde sua fundação, a empresa sempre teve como seu objetivo principal oferecer aos seus clientes um atendimento personalizado, ágil e eficiente, para isso conta com profissionais treinados,e especializados. <br>";
+echo  "Sempre pensando em melhorar o atendimento ao cliente, levando a eles as melhores marcas de peças e serviços.<br>";
+
+"Atualmente com um amplo espaço a Mecânica Gustavo têm sua  sede própria na Avenida Ipiranga 536, Bairro Kurtz. Santo Ângelo- Rio Grande do Sul.;
+ <br>";
 
 ?>
 
