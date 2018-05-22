@@ -12,7 +12,7 @@
        hspace - define o tamanho da margem nas bordas esquerda e direita da imagem.
 
 
-        <img src="imagens/Logo_Nova2.jpg" alt="Minha imagem!" vspace="10px" hspace="5px" border="5px" align="left"/>
+       <img src="imagens/logo.png" alt="Minha imagem!" vspace="10px" hspace="5px" border="5px" align="left"/>
         
 
 
