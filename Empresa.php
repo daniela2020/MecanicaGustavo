@@ -20,7 +20,7 @@
   </head>
   <body>
       <header><h1>Mecânica Gustavo</h1></header>
-      <img src=Logo_Nova2.jpg>
+      <img src="imagens/logo.png" alt="Minha imagem!" vspace="10px" hspace="5px" border="5px" align="left"/>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

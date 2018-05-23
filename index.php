@@ -3,15 +3,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" href="favicon.ico">
         <title>Mecânica Gustavo</title>
         <link rel="stylesheet" type="text/css"  href="estilo.css" />
-        <img src= "Logo_Nova2.jpg">
+        
     </head>
     <body>
        vspace - define o tamanho da margem nas bordas superior e inferior da imagem.
        hspace - define o tamanho da margem nas bordas esquerda e direita da imagem.
 
-
+  <header><h1>Mecânica Gustavo</h1></header>
        <img src="imagens/logo.png" alt="Minha imagem!" vspace="10px" hspace="5px" border="5px" align="left"/>
         
 
