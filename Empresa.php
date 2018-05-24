@@ -11,16 +11,13 @@
         <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    
   </head>
   <body>
+      <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
+      
       <header><h1>Mecânica Gustavo</h1></header>
-      <img src="imagens/logo.png" alt="Minha imagem!" vspace="10px" hspace="5px" border="5px" align="left"/>
+      
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
