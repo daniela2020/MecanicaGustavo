@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="favicon.ico">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- As 3 metatags acima * devem * vir em primeiro lugar na cabeça;
-    qualquer outro conteúdo principal deve vir * depois * dessas tags -->
-    <title>Mecânica Gustavo  </title>
-        <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+<!Doctype Html>
+<html>
+<head>
+<link rel="stylesheet"type="text/css" href=stylle.css>
+<meta charset=utf-8>
+<link rel="icon" href="favicon.ico">
+<title>Mecânica Gustavo</title></head>
 
-    
-  </head>
-  <body>
-      <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
-      
-      <header><h1>Mecânica Gustavo</h1></header>
-      
+<body>
+<img src="images/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
+
+ 
+
+<nav>
+<ul>
+<li> <a href=index.html>Home</li> </a>
+<li> <a href=Empresa.html>Empresa </li></a>
+<li> <a href=Pecas.html>Peças</li> </a>
+<li> <a href=Servicos.html>Serviços </li></a>
+<li> <a href=Contato.html>Contato</li> </a>
+<li> <a href=Administrativo.html>Administrativo </li></a>
+</ul></nav>
+<h2>Linha de Peças e Serviços</h2>
+<div>
+  
     <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

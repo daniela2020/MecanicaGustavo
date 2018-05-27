@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Página Inicial</title>
-        <link rel="stylesheet" type="text/css"  href="estilo.css" />
+        <link rel="stylesheet" type="text/css"  href="stylle.css" />
         <img src= "Logo_Nova2.jpg">
     </head>
     <body>

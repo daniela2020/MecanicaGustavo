@@ -1,0 +1,68 @@
+body{
+
+background-image:url(fundo.jpg); /*imagem do fundo do site*/
+
+
+}
+h1,h2,h3{
+	text-align:center;
+        font-family: verdana;
+		text-shadow: 2px 2px grey; /*cor cinza em degrade do títul e peças e serviços*/
+}
+section{
+     
+	  background-color:#ffffff;
+	  font-family:verdana;
+	  padding:10px;
+
+	  }
+
+img,vídeo{
+         max-width:100%;
+}
+div{
+	font-family:verdana;
+	
+	
+}		 
+nav{
+   background-color:#000000;/*aqui a cor do menu preto*/
+   height:55px;   
+   font-family:verdana;
+   font-weight:bold; /*letra do menu negrito*/
+   font-size:16px;
+   padding-top: 50px;
+   }
+nav ul{
+     height:auto;
+	 padding:8px 0px;
+	 margin:0px;
+	 }
+nav li{
+    display:inline;
+	padding:10px;
+	margin:0px;
+	}
+nav a{
+    text-decoration:none;
+	color:#ffffff;/*aqui cor da letra do menu branco*/
+	padding:10px 10px 10px 10px;
+	}
+nav a:hover {
+    background-color:#ffffff;/*aqui a cor Branco qdo passa o mouse em cima do menu*/
+	color:#000000;
+	}
+	
+footer{
+	background-color:#000000; /*faixa do rodape preto*/
+	height:100px;
+	text-align:center;
+	font-size:18px;
+	color:#ffffff; /*cor branca da letra do rodape 
+	font-weight:bold; /* espessura da fonte negrito*/
+	padding:3px;   /* largura da faixa rodape*/
+}
+    	
+table, th, td {
+    border: 2px solid  grey; /*borda da tabela cinza*/
+}
