@@ -21,50 +21,16 @@
 <li> <a href=Administrativo.html>Administrativo </li></a>
 </ul></nav>
 <h2>Linha de Peças e Serviços</h2>
-<div>
-  
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-	  <a class="navbar-brand" href="index.php">Home</a>
-         
-          
-    </div>
-    
-
-    <!-- Colete os links de navegação, formulários e outros conteúdos para alternar -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-          <li><a href="Empresa.php">Empresa</a></li>
-          <li class=><a href="Pecas.php">Peças</a></li>
-          <li><a href="Contato.php">Contato</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Motor</a></li>
-            <li><a href="#">Caixa de Câmbio</a></li>
-			<li><a href="#">Diferencial</a></li>
-            <li><a href="#">Direção Hidráulica</a></li>
-			<li><a href="#">Suspensão e Freios</a></li>
-			<li><a href="#">Reparos Mecânicos</a></li>
-            
-            
+   
            
-          </ul>
-        </li>
-      </ul>
-    </div>
+</body>
+</html>
+    
 
 
 
 <?php
+
 
 
 
@@ -100,5 +66,11 @@ echo "<h1>VALORES</h1>";
 
 echo "ATUAR POSITIVAMENTE NO MERCADO, COM ÉTICA, RESPEITO E CONFIABILIDADE.”<br>;
  <br>";
+
+
+
+           
+
+
 
 

@@ -1,43 +1,58 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Página Inicial</title>
+        <link rel="icon" href="favicon.ico">
+        <title>Mecânica Gustavo</title>
         <link rel="stylesheet" type="text/css"  href="stylle.css" />
-        <img src= "Logo_Nova2.jpg">
+
     </head>
     <body>
+        <!-- vspace - define o tamanho da margem nas bordas superior e inferior da imagem.
+        hspace - define o tamanho da margem nas bordas esquerda e direita da imagem. -->
+        <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
 
 
- <ul class="menu">
-            
-            <nav>
-  <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-            <li><a href="#">O que fazemos?</a>
-                <ul>
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="#">SEO</a></li>
-                      <li><a href="#">Design</a></li>                    
-                </ul>
-            </li>
-        <li><a href="#">Links</a></li>
-        <li><a href="#">Contato</a></li>                
-</ul>
+        <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
+
+          
+                        <?php
+                        // put your code here
+                        ?>
+
+                
+
+<nav>
+<ul>
+<li> <a href=index.html>Home</li> </a>
+<li> <a href=Empresa.html>Empresa </li></a>
+<li> <a href=Pecas.html>Peças</li> </a>
+<li> <a href=Servicos.html>Serviços </li></a>
+<li> <a href=Contato.html>Contato</li> </a>
+<li> <a href=Administrativo.html>Administrativo </li></a>
+</ul></nav>
+<h2>Linha de Peças e Serviços</h2>
+
+    
+
+ 
+   
+          
+        
+
+   
+    <div>
+      
+        </div>
+
+
+
+
+
 <?php
 ?>
 </body>
 </html>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+ 
