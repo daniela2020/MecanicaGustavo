@@ -37,10 +37,34 @@
 
 
 <?php
+echo "<table>";
+echo "<tr><td><img src=imagens/caixaDeCambio.png>Caixa de Câmbio <br></tr><br>";
+echo "<tr><td><img src=imagens/diferencialCaminhao.jpg>Diferencial <br></tr><br>";
+echo "<tr><td><img src=imagens/setorHidraulico.jpg>Direções Hidraulicas <br></tr><br>";
+echo "<tr><td><img src=imagens/bombaHidraulica.jpeg>Bomba Hidraulica <br></tr><br>";
+echo "<tr><td><img src=imagens/motor.png>Motor <br></tr><br>";
+echo "<tr><td><img src=imagens/freios.png>Freios/Suspensão <br></tr><br>";
+echo "<tr><td><img src=imagens/servicoTorno.png>Serviços de Torno <br></tr><br>";
+echo "<tr><td><img src=imagens/reparos_mecanicos.png>Reparos Diversos <br></tr><br></table>";
+
 ?>
 
 <br><br>
+    
 
+                                        
+
+                                    
+                                        
+                                       
+                                        
+
+                                    
+                                        
+                                
+                                    
+                                    
+ 
 
 
 <footer>

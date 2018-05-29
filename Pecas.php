@@ -25,26 +25,25 @@
 
 <nav>
 <ul>
-<li> <a href=index.html>Home</li> </a>
-<li> <a href=Empresa.html>Empresa </li></a>
-<li> <a href=Pecas.html>Peças</li> </a>
-<li> <a href=Servicos.html>Serviços </li></a>
-<li> <a href=Contato.html>Contato</li> </a>
-<li> <a href=Administrativo.html>Administrativo </li></a>
+<li> <a href=index.php>Home</li> </a>
+<li> <a href=Empresa.php>Empresa </li></a>
+<li> <a href=Pecas.php>Peças</li> </a>
+<li> <a href=Servicos.php>Serviços </li></a>
+<li> <a href=Contato.php>Contato</li> </a>
+<li> <a href=Administrativo.php>Administrativo </li></a>
 </ul></nav>
 <h2>Linha de Peças e Serviços</h2>
 
-    
 
- 
-   
+<section>
+    <br><p> Trabalhamos com uma linha completa de peças de ótima qualidade.</p><br>
+    <br><p> Parcelamos nos cartões as peças.</p> <br>
+</section>
           
         
 
    
-    <div>
-      
-        </div>
+    
 
 
 
@@ -52,7 +51,21 @@
 
 <?php
 ?>
-</body>
-</html>
+<br><br>
+<footer>
+<address>
+Fones: 55 3312 3127 . 55 99961 2384 . 55 99905 2001 <br>
+E-Mail: mecanicagustavo@mecanicagustavo.com.br<br>
+Avenida Ipiranga, 536 Bairro Kurtz -Santo Ângelo-RS<br>
+Copyright 2018 - Mecânica Gustavo <br/>
+</address>
+
+</footer>
+
+
+
+
+                        </body>
+                        </html>
 
  
