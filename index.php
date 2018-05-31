@@ -19,9 +19,7 @@
           
                         <?php
                         // put your code here
-                        ?>
-
-                
+                        ?>                
 
 <nav>
 <ul>
@@ -43,7 +41,7 @@
                         <th><img src="images/FORD.jpg" /><br>Ford</th>
 						<th><img src="images/RENAULT.jpg" /><br>Renault</th>
 						<th><img src="images/PEUGEOT.jpg" /><br>Peugeot</th>
-						<th><img src="images/MARCOPOLO.jpg" /><br>MARCOPOLO<br></th>
+						<th><img src="images/MARCOPOLO.jpg" /><br>Marcopolo<br></th>
 						 
                         
 						
