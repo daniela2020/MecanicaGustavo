@@ -13,12 +13,12 @@
 
 <nav>
 <ul>
-<li> <a href=index.php>Home</li> </a>
-<li> <a href=Empresa.php>Empresa </li></a>
-<li> <a href=Pecas.php>Peças</li> </a>
-<li> <a href=Servicos.php>Serviços </li></a>
-<li> <a href=Contato.php>Contato</li> </a>
-<li> <a href=Administrativo.php>Administrativo </li></a>
+<li><a href=index.php>Home</a></li>
+<li><a href=Empresa.php>Empresa</a></li>
+<li><a href=Pecas.php>Peças</a></li>
+<li><a href=Servicos.php>Serviços</a></li>
+<li><a href=Contato.php>Contato</a></li>
+<li><a href=Administrativo.php>Administrativo</a></li>
 </ul></nav>
 <h2>Linha de Peças e Serviços</h2>
    
