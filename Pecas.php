@@ -23,7 +23,7 @@
 <li><a href=Pecas.php>Peças</a></li>
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
-<li><a href=Administrativo.php>Administrativo</a></li>
+<li><a href=Administrador.php>Administrador</a></li>
 </ul></nav>
 <h1>Linha de Peças</h1>
 
@@ -32,7 +32,21 @@
     <br><p> Trabalhamos com uma linha completa de peças de ótima qualidade.</p><br>
     <br><p> Parcelamos as peças nos cartões.</p> <br>
 </section>
-          
+<img src="imagens/pecas.png">
+
+<br><br>
+<div class="pagination">
+				
+					<a href="Administrativo.php">&laquo;</a>					
+					<a href="index.php">1</a>				
+					<a href="Empresa.php">2</a>				
+                                        <a href="Pecas.php">3</a>				
+                                        <a href="Servicos.php">4</a>				
+					<a href="Contato.php">5</a>
+					<a href=Administrador.php">Próximo</a>
+                                        <a href="index.php">&raquo;</a>
+				
+		</div>
 
 <footer>
 <address>

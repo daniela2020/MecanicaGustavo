@@ -17,7 +17,7 @@
 <li><a href=Pecas.php>Peças</a></li>
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
-<li><a href=Administrativo.php>Administrativo</a></li>
+<li><a href=Administrador.php>Administrador</a></li>
 </ul></nav>
 
 <h1>Breve Histórico</h1>
@@ -42,24 +42,44 @@
   ► Melhoria contínua da qualidade dos serviços, investindo em equipamentos e ferramentas de última geração;<br>
   ► Treinamentos e Capacitação dos Funcionários, com foco nos resultados;<br>
   ► Controle dos impactos ambientais e riscos ocupacionais.<br>
-  
-        <h1>Missão</h1><br>
-  ► Busca constante de aprimoramento nos serviços prestados e fortalecimento nas relações com clientes e fornecedores.<br>
+  </dection>
+   <?php
+                        
+            echo"                 <h1>Missão</h1><br>";
+  echo"Busca constante de aprimoramento nos serviços prestados e fortalecimento nas relações com clientes e fornecedores.<br>";
 
-        <h1>Visão</h1><br>
+       echo" <h1>Visão</h1><br>";
 
-  ► Objetiva manter-se na liderança do segmento de vendas de peças e prestação de serviços, proporcionando a satisfação dos clientes.<br>
+  echo" Objetiva manter-se na liderança do segmento de vendas de peças e prestação de serviços, proporcionando a satisfação dos clientes.<br>";
 
-        <h1>Valores</h1>
+       echo" <h1>Valores</h1>";
 
-  ► Atuar positivamente no mercado, com ética, respeito, e confiabilidade.<br>
- <br>
-</section>  
+  echo" Atuar positivamente no mercado, com ética, respeito, e confiabilidade.<br>";
+ ?>
+
            
 </body>
 </html>
 
 <h1>Colaboradores</h1> <center><img src="imagens/TurmaMecGustavo.png"></center></br>
+
+
+<br><br>
+<div class="pagination">
+				
+					<a href="Administrativo.php">&laquo;</a>					
+					<a href="index.php">1</a>				
+					<a href="Empresa.php">2</a>				
+                                        <a href="Pecas.php">3</a>				
+                                        <a href="Servicos.php">4</a>				
+					<a href="Contato.php">5</a>
+                                        <a href="Administrador.php">Próximo</a>
+                                        <a href="index.php">&raquo;</a>
+		</div>
+
+ <?php
+                        // put your code here
+                        ?>
     
 <footer>
 <address>

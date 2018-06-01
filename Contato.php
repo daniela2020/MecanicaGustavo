@@ -21,7 +21,7 @@
                         // put your code here
                         ?>
 
-                
+                     
 
 <nav>
 <ul>
@@ -30,9 +30,9 @@
 <li><a href=Pecas.php>Peças</a></li>
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
-<li><a href=Administrativo.php>Administrativo</a></li>
+<li><a href=Administrador.php>Administrador</a></li>
 </ul></nav>
-<h1>Contato</h1>
+<h1>Envie sua mensagem</h1>
 
 
   
@@ -104,7 +104,21 @@ if (isset($_POST['BTEnvia'])) {
           <input type="submit" name="BTEnvia" value="Enviar"> 
 	  <input type="reset" name="BTApaga" value="Apagar">
         </p>
+  
+        <br><br><br>  
         
+        <div class="pagination">
+				
+					<a href="Administrativo.php">&laquo;</a>					
+					<a href="index.php">1</a>				
+					<a href="Empresa.php">2</a>				
+                                        <a href="Pecas.php">3</a>				
+                                        <a href="Servicos.php">4</a>				
+					<a href="Contato.php">5</a>
+					<a href=Administrador.php">Próximo</a>
+                                        <a href="index.php">&raquo;</a>
+				
+		</div>
 <footer>
 <address>
 Fones: 55 3312 3127 . 55 99961 2384 . 55 99905 2001 <br>
