@@ -16,11 +16,6 @@
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
 
-          
-                        <?php
-                        // put your code here
-                        ?>                
-
 <nav>
 <ul>
 <li><a href=index.php>Home</a></li>
@@ -30,7 +25,7 @@
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrativo.php>Administrativo</a></li>
 </ul></nav>
-<h2>Linha de Peças e Serviços</h2>
+<h1>Linha de Peças e Serviços</h1>
 <div>
  <table>
         <thead>

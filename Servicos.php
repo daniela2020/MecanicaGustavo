@@ -15,25 +15,19 @@
         <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
 
 
-        <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
+        <img src="images/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
 
-          
-                        <?php
-                        // put your code here
-                        ?>
-
-                
 
 <nav>
 <ul>
 <li><a href=index.html>Home</a></li>
 <li><a href=Empresa.html>Empresa</a></li>
-<li><a href=Pecas.html>Peças</a></li> <!-- Estava intertido </li></a>.-->
+<li><a href=Pecas.html>Peças</a></li> <!-- Estava intertido </li></a>. por isso dava uns erro no sumario.-->
 <li><a href=Servicos.html>Serviços</a></li>
 <li><a href=Contato.html>Contato</a></li>
 <li><a href=Administrativo.html>Administrativo</a></li>
 </ul></nav>
-<h2>Linha de Peças e Serviços</h2>
+<h1>Serviços</h1>
 
 
 <?php
@@ -49,29 +43,11 @@ echo "<tr><td><img src=imagens/reparos_mecanicos.png>Reparos Diversos <br></tr><
 
 ?>
 
-<br><br>
-    
-
-                                        
-
-                                    
-                                        
-                                       
-                                        
-
-                                    
-                                        
-                                
-                                    
-                                    
- 
-
-
 <footer>
 <address>
 Fones: 55 3312 3127 . 55 99961 2384 . 55 99905 2001 <br>
 E-Mail: mecanicagustavo@mecanicagustavo.com.br<br>
-Avenida Ipiranga, 536 Bairro Kurtz -Santo Ângelo-RS<br>
+Avenida Ipiranga, 536, Bairro Kurtz - Santo Ângelo - RS<br>
 Copyright 2018 - Mecânica Gustavo <br/>
 </address>
 

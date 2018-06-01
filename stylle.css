@@ -2,7 +2,6 @@ body{
 
 background-image:url(fundo.jpg); /*imagem do fundo do site*/
 
-
 }
 h1,h2,h3{
 	text-align:center;
@@ -14,7 +13,7 @@ section{
 	  background-color:#ffffff;
 	  font-family:verdana;
 	  padding:10px;
-          font size: "6";
+          font-size: size: "6";
 }
 
 img,vídeo{
@@ -22,7 +21,6 @@ img,vídeo{
 }
 div{
 	font-family:verdana;
-	
 	
 }		 
 nav{

@@ -14,7 +14,7 @@
         <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
 
 
-        <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
+        <img src="images/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
 
           
                         <?php
@@ -32,7 +32,7 @@
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrativo.php>Administrativo</a></li>
 </ul></nav>
-<h2>Linha de Peças e Serviços</h2>
+<h1>Contato</h1>
 
 
   
@@ -84,36 +84,32 @@ if (isset($_POST['BTEnvia'])) {
 ?>
 	
 	<form action="<? $PHP_SELF; ?>" method="POST"> 
-	<p> 
-		Nome:<br /> 
+	<p> <br/> 
+		Nome:<br/> 
 		<input type="text" size="30" name="nome"> 
 	</p>   
 	<p> 
-		E-mail:<br /> 
+		E-mail:<br/> 
 		<input type="text" size="30" name="email">		
 	</p>   
 	<p> 
-		Telefone:<br /> 
+		Telefone:<br/> 
 		<input type="text" size="35" name="telefone"> 
 	</p>   
 	<p> 
-		Mensagem:<br /> 
+		Mensagem:<br/> 
 		<input type="text" size="35" name="mensagem"> 
 	</p>   
 	<p>
           <input type="submit" name="BTEnvia" value="Enviar"> 
 	  <input type="reset" name="BTApaga" value="Apagar">
         </p>
-
-
-
-
-
+        
 <footer>
 <address>
 Fones: 55 3312 3127 . 55 99961 2384 . 55 99905 2001 <br>
 E-Mail: mecanicagustavo@mecanicagustavo.com.br<br>
-Avenida Ipiranga, 536 Bairro Kurtz -Santo Ângelo-RS<br>
+Avenida Ipiranga, 536, Bairro Kurtz - Santo Ângelo - RS<br>
 Copyright 2018 - Mecânica Gustavo <br/>
 </address>
 
