@@ -14,7 +14,7 @@
         <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
 
 
-        <img src="images/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>               
+        <img src="imagens/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>               
 
 <nav>
 <ul>

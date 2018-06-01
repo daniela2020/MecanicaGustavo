@@ -26,7 +26,7 @@
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
 </ul></nav>
-
+        <br><br><br><br><br><br>
        <form>
    Novo Usuário:<input type="text" name="nome"/><br>
    Senha:<input type="password" name="senha"/><br>

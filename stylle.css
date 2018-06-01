@@ -1,5 +1,6 @@
 body{
-background-image:url(fundo.jpg); /*imagem do fundo do site*/
+background-image: url("fundo.jpg"); /*imagem do fundo do site*/
+
 
 }
 h1,h2,h3{

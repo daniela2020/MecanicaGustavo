@@ -7,7 +7,7 @@
 <title>Mecânica Gustavo</title></head>
 
 <body>
-<img src="images/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
+    <img src="imagens/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
   
 
 <nav>
