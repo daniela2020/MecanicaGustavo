@@ -67,7 +67,7 @@
 <br><br>
 <div class="pagination">
 				
-					<a href="Administrativo.php">&laquo;</a>					
+					<a href="Administrador.php">&laquo;</a>					
 					<a href="index.php">1</a>				
 					<a href="Empresa.php">2</a>				
                                         <a href="Pecas.php">3</a>				

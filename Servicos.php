@@ -20,28 +20,41 @@
 
 <nav>
 <ul>
-<li><a href=index.html>Home</a></li>
-<li><a href=Empresa.html>Empresa</a></li>
-<li><a href=Pecas.html>Peças</a></li> <!-- Estava intertido </li></a>. por isso dava uns erro no sumario.-->
-<li><a href=Servicos.html>Serviços</a></li>
-<li><a href=Contato.html>Contato</a></li>
-<li><a href=Administrativo.html>Administrativo</a></li>
+<li><a href=index.php>Home</a></li>
+<li><a href=Empresa.php>Empresa</a></li>
+<li><a href=Pecas.php>Peças</a></li> <!-- Estava intertido </li></a>. por isso dava uns erro no sumario.-->
+<li><a href=Servicos.php>Serviços</a></li>
+<li><a href=Contato.php>Contato</a></li>
+<li><a href=Administrador.php>Administrador</a></li>
 </ul></nav>
 <h1>Serviços</h1>
 
 
 <?php
 echo "<table>";
-echo "<tr><td><img src=imagens/caixaDeCambio.png>Caixa de Câmbio <br></tr><br>";
-echo "<tr><td><img src=imagens/diferencialCaminhao.jpg>Diferencial <br></tr><br>";
-echo "<tr><td><img src=imagens/setorHidraulico.jpg>Direções Hidraulicas <br></tr><br>";
-echo "<tr><td><img src=imagens/bombaHidraulica.jpeg>Bomba Hidraulica <br></tr><br>";
-echo "<tr><td><img src=imagens/motor.png>Motor <br></tr><br>";
-echo "<tr><td><img src=imagens/freios.png>Freios/Suspensão <br></tr><br>";
-echo "<tr><td><img src=imagens/servicoTorno.png>Serviços de Torno <br></tr><br>";
-echo "<tr><td><img src=imagens/reparos_mecanicos.png>Reparos Diversos <br></tr><br></table>";
+echo "<tr><td><img src=imagens/caixaDeCambio.png>Caixa de Câmbio <br></td>";
+echo "<td><img src=imagens/diferencialCaminhao.jpg>Diferencial <br></td></tr>";
+echo "<tr><td><img src=imagens/setorHidraulico.jpg>Direções Hidraulicas <br></td>";
+echo "<td><img src=imagens/bombaHidraulica.jpeg>Bomba Hidraulica <br></td></tr>";
+echo "<tr><td><img src=imagens/motor.png>Motor <br></td>";
+echo "<td><img src=imagens/freios.png>Freios/Suspensão <br></td></tr>";
+echo "<tr><td><img src=imagens/servicoTorno.png>Serviços de Torno <br></td>";
+echo "<td><img src=imagens/reparos.png>Reparos Diversos <br></td></tr></table>";
 
 ?>
+<br><br>
+<div class="pagination">
+				
+					<a href="Administrador.php">&laquo;</a>					
+					<a href="index.php">1</a>				
+					<a href="Empresa.php">2</a>				
+                                        <a href="Pecas.php">3</a>				
+                                        <a href="Servicos.php">4</a>				
+					<a href="Contato.php">5</a>
+					<a href=Administrador.php">Próximo</a>
+                                        <a href="index.php">&raquo;</a>
+				
+		</div>
 
 <footer>
 <address>
