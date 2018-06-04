@@ -137,15 +137,16 @@
                <option value="SC">SC</option>
            </select><br>
            <b><h2>Natureza do cargo:</h2></b><br>
-           Oficina<input type="radio" name="natureza" value="Oficina" >
-           Loja <input type="radio" name="natureza" value="Loja" ><br>
-           Área:
-           Mecânico: <input type="checkbox" name="area[]" value="Mecânico">
-           Auxiliar Mecânico: <input type="checkbox" name="area[]" value="Auxiliar Mecânico">
-           Vendedor: <input type="checkbox" name="area[]" value="Vendedor">
-           Aux.Escritorio: <input type="checkbox" name="area[]" value="Aux.Escritorio">
-           Serviços Gerais: <input type="checkbox" name="area[]" value="Serviços Gerais">
-           Outros: <input type="checkbox" name="area[]" value="Outros">
+           Oficina<input type="radio" name="natureza" value="Oficina" > 
+           
+           Loja <input type="radio" name="natureza" value="Loja" ><br><br>
+           Área:<br>
+           <input type="checkbox" name="area[]" value="Mecânico">Mecânico:<br>
+           <input type="checkbox" name="area[]" value="Auxiliar Mecânico">Auxiliar Mecânico: <br>
+           <input type="checkbox" name="area[]" value="Vendedor">Vendedor: <br>
+           <input type="checkbox" name="area[]" value="Aux.Escritorio">Aux.Escritorio: <br>
+           <input type="checkbox" name="area[]" value="Serviços Gerais"> Serviços Gerais: <br>
+           <input type="checkbox" name="area[]" value="Outros">Outros: <br>
            <input type="submit" name="submit">
            <input type="reset" name="limpar">
        </form>
