@@ -30,13 +30,192 @@
        <form>
    Novo Usuário:<input type="text" name="nome"/><br>
    Senha:<input type="password" name="senha"/><br>
-   <input type="submit" name="action" value="Enviar"/>
+   <input type="submit" name="action" value="Enviar"/><hr><hr>
 </form>
+        <br><br>      
+ <!--  Aqui tem um exemplo de LISTA que podemos usar p nosso site achei na apostila web2 pag21 ------------->
+  
+ <form>
+           <input type="text" name="valor" id="valor" />
+      Digite um nome  <input type="button" onclick="adicionar()" value="Adicionar"/>
+           </form>
+       
+       <section id="valorTotal"> </section>
+       
+
+
+       <section id="valoresVetor" style="border:1px solid black;width:150px;height:150px;overflow:auto">
+
+
+       </section>
+       <script>
+           function adicionar() {
+               var valorInput = document.getElementById('valor');
+               var valorTotalHTML = document.getElementById('valorTotal');
+
+
+               var valor = valorInput.value;
+               var valorTotal = valorTotalHTML.innerHTML;
+
+
+               valorTotal = parseInt(valorTotal) + parseInt(valor);
+
+
+               valorTotalHTML.innerHTML = valorTotal;
+
+
+               var elementoLista = document.getElementById('valoresVetor');
+
+
+               elementoLista.innerHTML += "<br>" + valor;
+
+
+           }
+
+
+       </script><hr><hr>
+ <!--  -----------------------------ate aqui -->
+ <br><br>
+ <!--  AQUI EXEMPLO DE VALIDAÇÃO DE FORMULARIOS -->
+ 
+ <title>Validação de formulários </title>
+       <script language="JavaScript" >
+           function enviardados() {
+               var Nome = document.getElementById('Nome');
+         
+               var mensagem = document.getElementById('mensagem')<br>;
+
+
+               if (Nome.value == "" || Nome.value.length < 8)
+               {
+                   alert("Preencha campo NOME corretamente!");
+                   Nome.focus();
+                   return false;
+               }
+
+
+               if (mensagem.value == "")
+               {
+                   alert("Preencha o campo MENSAGEM!");
+                   mensagem.focus();
+                   return false;
+               }
+
+
+               if (mensagem.value.length < 40)
+               {
+                   alert("É necessário preencher o campo MENSAGEM com mais de 40 caracteres!");
+                   mensagem.focus();
+                   return false;
+               }
+
+
+               return true;
+           }
+       </script>
+
+
+   </head>
+   <body>
+       <form action="#" method="post" onSubmit="return enviardados();" >
+           Nome    <input type="text" id="Nome" /> <br><br>
+           Mensagem <textarea cols="40" rows="6" id="mensagem" /></textarea><br>
+           <input type="submit" value="Enviar dados" />
+           <input type="reset" value="Redefinir" /><hr><hr>
+       </form>   
+
+        <!--FIM DA VALIDAÇÃO DO FORMULÁRIO      ---->
+        <br><br>
         
+        <!--apostila web2 pag8 -->
+        <form method="POST"><b><h2>Trabalhe Conosco</b></h2><br><br>
+           Nome:<input type="text" name="nome" /><br>
+           Endereço:<input type="text" name="endereco" /><br>
+           Cidade:<input type="text" name="cidade" /><br>
+           Estado: <select name="estado">
+               <option value="rs">RS</option>
+               <option value="SC">SC</option>
+           </select><br>
+           <b><h2>Natureza do cargo:</h2></b><br>
+           Oficina<input type="radio" name="natureza" value="Oficina" >
+           Loja <input type="radio" name="natureza" value="Loja" ><br>
+           Área:
+           Mecânico: <input type="checkbox" name="area[]" value="Mecânico">
+           Auxiliar Mecânico: <input type="checkbox" name="area[]" value="Auxiliar Mecânico">
+           Vendedor: <input type="checkbox" name="area[]" value="Vendedor">
+           Aux.Escritorio: <input type="checkbox" name="area[]" value="Aux.Escritorio">
+           Serviços Gerais: <input type="checkbox" name="area[]" value="Serviços Gerais">
+           Outros: <input type="checkbox" name="area[]" value="Outros">
+           <input type="submit" name="submit">
+           <input type="reset" name="limpar">
+       </form>
+
+
+       <br>
+       <?php
+       $handle = fopen("teste.txt", "a+");
+
+
+       $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+       if (strlen(trim($nome)) > 0) {
+           $arr = ['nome' => $nome,
+               'endereco' => filter_input(INPUT_POST, 'endereco', FILTER_SANITIZE_STRING),
+               'cidade' => filter_input(INPUT_POST, 'cidade', FILTER_SANITIZE_STRING),
+               'estado' => filter_input(INPUT_POST, 'estado', FILTER_SANITIZE_STRING),
+               'natureza' => filter_input(INPUT_POST, 'natureza', FILTER_SANITIZE_STRING),
+               'area' => filter_input(INPUT_POST, 'area', FILTER_DEFAULT, FILTER_REQUIRE_ARRAY)
+           ];
+
+
+           $arrSerializado = serialize($arr) . PHP_EOL;
+           fputs($handle, $arrSerializado, strlen($arrSerializado));
+
+
+           //fclose($handle);
+           //$handle = fopen("teste.txt", "r");     
+           rewind($handle);
+       }
+
+
+       echo '<table border=1>';
+       echo '<tr>';
+       echo '<th>nome</th><th>endereco</th><th>cidade</th><th>estado</th><th>natureza</th><th>area</th>';
+       echo '</tr>';
+
+
+       while (!feof($handle)) {
+
+
+           $linha = unserialize(fgets($handle));
+           if (strlen(trim($linha['nome'])) > 0) {
+               echo '<tr>';
+               echo '<td>' . $linha['nome'] . '</td><td>' . $linha['endereco'] . '</td><td>' . $linha['cidade'] . '</td><td>' . $linha['estado']. '</td><td>' . $linha['natureza']. '</td><td>' .print_r($linha['area'], true) . '</td>';
+               echo '</tr>';
+           }
+       }
+
+
+
+
+       echo '</table>';
+
+
+       fclose($handle);
+       ?>
+
+
+  
+
+
+ 
+ 
+ 
+ <!--Aguardar por enquanto este xxxxxx 
+  
 <form action="Script_do_Formulario.php" method="post">
 
 <!-- DADOS PESSOAIS-->
-<fieldset>
+<!--<fieldset>
  <legend>Dados Pessoais</legend>
  <table cellspacing="10">
   <tr>
@@ -84,8 +263,8 @@
 
 <br />
 <!-- ENDEREÇO -->
-<fieldset> <!--/*agrupar elementos, assim como labels (<label>), dentro de um formulário web. -->
- <legend>Dados de Endereço</legend>
+<!-- <fieldset> <!--/*agrupar elementos, assim como labels (<label>), dentro de um formulário web. -->
+<!-- <legend>Dados de Endereço</legend>
  <table cellspacing="10">
 
   <tr>
@@ -168,7 +347,7 @@
       
 <!----ver se vamos utilizar-->
         <!-- DADOS DE LOGIN -->
-<fieldset>
+<!--              <fieldset>
  <legend>Dados de login</legend>
  <table cellspacing="10">
   <tr>
@@ -217,7 +396,8 @@
 <br />
 <input type="submit">
 <input type="reset" value="Limpar">
-</form>
+</form> -->
+ 
         
 </body>
 </html>

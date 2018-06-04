@@ -15,7 +15,9 @@
 
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
-
+<script type="text/javascript">
+  alert('Seja Bem-Vindo!');
+</script>
 <nav>
 <ul>
 <li><a href=index.php>Home</a></li>

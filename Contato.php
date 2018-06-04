@@ -16,6 +16,7 @@
 
         <img src="imagens/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
 
+
           
                        
 
@@ -96,7 +97,7 @@ if (isset($_POST['BTEnvia'])) {
 	</p>   
 	<p> 
 		Mensagem:<br/> 
-		<input type="text" size="35" name="mensagem"> 
+		<input type="text" size="50" name="mensagem"> 
 	</p>   
 	<p>
           <input type="submit" name="BTEnvia" value="Enviar"> 
