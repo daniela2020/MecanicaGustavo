@@ -16,7 +16,12 @@
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
 <script type="text/javascript">
+    
+    
   alert('Seja Bem-Vindo!');
+  prev: '#anterior';
+  next: '#proximo';
+  
 </script>
 <nav>
 <ul>
@@ -64,7 +69,7 @@
 </div>
 <br><br>
 
-<div class="pagination">
+<!--<div class="pagination">
 				
 					<a href="Administrativo.php">&laquo;</a>					
 					<a href="index.php">1</a>				
@@ -75,7 +80,20 @@
 					<a href="Administrador.php">Próximo</a>
                                         <a href="index.php">&raquo;</a>
 				
-		</div>
+		</div> -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="index.php">1</a></li>
+    <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
+    <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
+    <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
+    <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
+    <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
+    <li class="page-link"><a class="page-link" href="Empresa.php">Próximo</a></li>
+  </ul>
+</nav>
+
 
 <footer>
 <address>
