@@ -43,19 +43,7 @@ echo "<td><img src=imagens/reparos.png>Reparos Diversos <br></td></tr></table>";
 
 ?>
 <br><br>
-<!--
-<div class="pagination">
-				
-					<a href="Administrador.php">&laquo;</a>					
-					<a href="index.php">1</a>				
-					<a href="Empresa.php">2</a>				
-                                        <a href="Pecas.php">3</a>				
-                                        <a href="Servicos.php">4</a>				
-					<a href="Contato.php">5</a>
-					<a href=Administrador.php">Próximo</a>
-                                        <a href="index.php">&raquo;</a>
-				
-		</div>-->
+
 <nav aria-label="Page navigation example">
   <ul class="pagination">
     <li class="page-item"><a class="page-link" href="Pecas.php">Anterior</a></li>
