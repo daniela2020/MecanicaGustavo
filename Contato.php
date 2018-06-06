@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -16,12 +15,6 @@
 
         <img src="imagens/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>
 
-
-          
-                       
-
-                     
-
 <nav>
 <ul>
 <li><a href=index.php>Home</a></li>
@@ -30,9 +23,9 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
-</ul></nav>
+</ul>
+</nav>
 <h1>Envie sua mensagem</h1>
-
 
   
 <?php
@@ -105,9 +98,8 @@ if (isset($_POST['BTEnvia'])) {
         </p>
   
         <br><br><br>  
-        
-             
-       <nav aria-label="Page navigation example">
+
+       <nav aria-label="Paginação de navegação">
   <ul class="pagination">
       <li class="page-item"><a class="page-link" href="Servicos.php">Anterior</a></li>
     <li class="page-item"><a class="page-link" href="index.php">1</a></li>
@@ -128,11 +120,7 @@ E-Mail: mecanicagustavo@mecanicagustavo.com.br<br>
 Avenida Ipiranga, 536, Bairro Kurtz - Santo Ângelo - RS<br>
 Copyright 2018 - Mecânica Gustavo <br/>
 </address>
-
 </footer>
-
-
-
 
                         </body>
                         </html>
