@@ -2,3 +2,15 @@ a:6:{s:4:"nome";s:7:"daniela";s:8:"endereco";s:11:"av ipiranga";s:6:"cidade";s:1
 a:6:{s:4:"nome";s:4:"luan";s:8:"endereco";s:4:"rosa";s:6:"cidade";s:12:"santo angelo";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
 a:6:{s:4:"nome";s:5:"jorge";s:8:"endereco";s:15:"eduardo maerkli";s:6:"cidade";s:12:"santo angelo";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:18:"Auxiliar Mecânico";}}
 a:6:{s:4:"nome";s:5:"jorge";s:8:"endereco";s:15:"eduardo maerkli";s:6:"cidade";s:12:"santo angelo";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:18:"Auxiliar Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:5:"artur";s:8:"endereco";s:5:"rs118";s:6:"cidade";s:7:"catuipe";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:9:"Mecânico";}}
+a:6:{s:4:"nome";s:4:"alan";s:8:"endereco";s:8:"rua rosa";s:6:"cidade";s:12:"santo cristo";s:6:"estado";s:2:"rs";s:8:"natureza";s:7:"Oficina";s:4:"area";a:1:{i:0;s:18:"Auxiliar Mecânico";}}

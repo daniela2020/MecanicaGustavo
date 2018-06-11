@@ -31,6 +31,7 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
+<li><a href=Cadastro.php>Cadastro</a></li>
 </ul></nav>
 <h1>Linha de Peças e Serviços</h1>
 <div>
@@ -77,7 +78,7 @@
     <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
     <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
-    <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
+    <li class="page-link"><a class="page-link" href="Contato.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
     <li class="page-link"><a class="page-link" href="Empresa.php">Próximo</a></li>
   </ul>

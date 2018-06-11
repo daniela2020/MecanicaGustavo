@@ -26,6 +26,7 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
+<li><a href=Cadastro.php>Cadastro Cliente</a></li>
 </ul></nav>
 <h1>Serviços</h1>
 
@@ -53,6 +54,7 @@ echo "<td><img src=imagens/reparos.png>Reparos Diversos <br></td></tr></table>";
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
     <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
+      <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
     <li class="page-link"><a class="page-link" href="Contato.php">Próximo</a></li>
     
   </ul>

@@ -18,6 +18,7 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
+<li><a href=Cadastro.php>Cadastro Cliente</a></li>
 </ul></nav>
 
 <h1>Breve Histórico</h1>
@@ -34,7 +35,7 @@
         <h4> Agilidade<br></h4>
                 
 
-        <h1>Política Da Empresa</h1>
+        <hr> <h1>Política Da Empresa</h1><hr>
 
     <h4>Nossa política de relacionamento está pautada em aspectos essenciais:<br></h4>
   ► Excelência no atendimento, buscando satisfazer as expectativas dos clientes;<br>
@@ -42,7 +43,7 @@
   ► Melhoria contínua da qualidade dos serviços, investindo em equipamentos e ferramentas de última geração;<br>
   ► Treinamentos e Capacitação dos Funcionários, com foco nos resultados;<br>
   ► Controle dos impactos ambientais e riscos ocupacionais.<br>
-  </dection>
+  </section>
    <?php
                         
             echo"                 <h1>Missão</h1><br>";
@@ -76,6 +77,7 @@
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
     <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
+      <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
     <li class="page-link"><a class="page-link" href="Pecas.php">Próximo</a></li>
     
   </ul>

@@ -25,15 +25,17 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
+<li><a href=Cadastro.php>Cadastro Cliente</a></li>
 </ul></nav>
         <br><br><br><br><br><br>
+        <!--
        <form>
    Novo Usuário:<input type="text" name="nome"/><br>
    Senha:<input type="password" name="senha"/><br>
    <input type="submit" name="action" value="Enviar"/><hr><hr>
 </form>
         <br><br>      
- <!--  Aqui tem um exemplo de LISTA que podemos usar p nosso site achei na apostila web2 pag21 ------------->
+ <!--  Aqui tem um exemplo de LISTA que podemos usar p nosso site achei na apostila web2 pag21 -------------
   
  <form>
            <input type="text" name="valor" id="valor" />
@@ -74,47 +76,9 @@
 
 
        </script><hr><hr>
- <!--  -----------------------------ate aqui -->
- <br><br>
- <!--  AQUI EXEMPLO DE VALIDAÇÃO DE FORMULARIOS -->
- 
- <title>Validação de formulários </title>
-       <script language="JavaScript" >
-           function enviardados() {
-               var Nome = document.getElementById('Nome');
-         
-               var mensagem = document.getElementById('mensagem')<br>;
+   ------------------------------>
 
-
-               if (Nome.value == "" || Nome.value.length < 8)
-               {
-                   alert("Preencha campo NOME corretamente!");
-                   Nome.focus();
-                   return false;
-               }
-
-
-               if (mensagem.value == "")
-               {
-                   alert("Preencha o campo MENSAGEM!");
-                   mensagem.focus();
-                   return false;
-               }
-
-
-               if (mensagem.value.length < 40)
-               {
-                   alert("É necessário preencher o campo MENSAGEM com mais de 40 caracteres!");
-                   mensagem.focus();
-                   return false;
-               }
-
-
-               return true;
-           }
-       </script>
-
-
+      <!--
    </head>
    <body>
        <form action="#" method="post" onSubmit="return enviardados();" >
@@ -129,6 +93,7 @@
         
         <!--apostila web2 pag8 -->
         <form method="POST"><b><h2>Trabalhe Conosco</b></h2><br><br>
+        <br><b>Preencha os dados:</b><br/>
            Nome:<input type="text" name="nome" /><br>
            Endereço:<input type="text" name="endereco" /><br>
            Cidade:<input type="text" name="cidade" /><br>
@@ -404,22 +369,7 @@
 </html>
 
 
-<?php
 
-
-$senhaAberta = filter_input(INPUT_GET, 'senha', FILTER_DEFAULT);
-
-
-if(!is_null($senhaAberta)){
-   echo 'Senha passada pelo usuario: ' . $senhaAberta . '<br>';
-
-
-   $senhaParaArmazenarNoBanco = password_hash($senhaAberta, PASSWORD_DEFAULT);
-   echo 'Senha para ser armazenada no banco: ' . $senhaParaArmazenarNoBanco . '<br>';
-}
-
-
-?>
 
 </body>
 </html>
@@ -449,6 +399,7 @@ if(!is_null($senhaAberta)){
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
     <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
+    <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
     <li class="page-link"><a class="page-link" href="">Próximo</a></li>
     
   </ul>
