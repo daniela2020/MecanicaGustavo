@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<!--https://www.youtube.com/watch?v=j0gu29SpAKg
+ronaldo
+-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -17,15 +19,7 @@
 
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
-<script type="text/javascript">
-    
-    
-  alert('Seja Bem-Vindo!');
-  prev: '#anterior';
-  next: '#proximo';
-  
-</script>
-<br><br><br>
+
 <nav>
 <ul>
 <li><a href=index.php>Home</a></li>
@@ -36,15 +30,15 @@
 <li><a href=Administrador.php>Administrador</a></li>
 <li><a href=Cadastro.php>Cadastro de Clientes</a></li>
 </ul></nav>
-<br><br>
+<br><br><br><br>
 
-  <form name="signup" method="post" action="cadastrando.php"> 
-            Nome: <input type="text" name="nome" /><br/><br/>
-        CPF: <input type="text" name="cpf" /><br/><br/>
-       Endereço <input type="text" name="endereco"><br/><br/>
-        Cidade: <input type="text" name="cidade" /><br/><br/>
-        E-mail: <input type="text" name="email" /><br/><br/>
-        Senha: <input type="password" name="senha" /><br/><br/>
+  <form name="signup" method="post" action="cadastrando.php"> <br><br>
+        Nome: <input type="text" name="nome" /><br><br>
+        CPF: <input type="text" name="cpf" /><br><br>
+        Endereço <input type="text" name="endereco"><br><br>
+        Cidade: <input type="text" name="cidade" /><br><br>
+        E-mail: <input type="text" name="email" /><br><br>
+        Senha: <input type="password" name="senha" /><br><br>
         <input type="submit" value="Cadastrar" />
                 </form>
 <?php
@@ -66,7 +60,7 @@
 
 <nav aria-label="Page navigation example">
   <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="Administrador.php">Anterior</a></li>
     <li class="page-item"><a class="page-link" href="index.php">1</a></li>
     <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
     <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>

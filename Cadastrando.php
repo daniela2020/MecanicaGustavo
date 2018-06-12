@@ -32,7 +32,7 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
-<li><a href=Cadastro.php>Cadastro de Clientes</a></li>
+<li><a href=Cadastro.php>Cadastro Cliente</a></li>
 </ul></nav>
 
 
@@ -63,13 +63,14 @@ $stmt->bind_param("ssssss", $nome, $cpf, $endereco,$cidade,$email,$senha);
 
     
     $stmt->execute();
+    
 
     echo $conexao->error;
     
    
 
 
-echo "<center><h1>Cadastro realizado com sucesso!!</h1></center>";        
+echo "<center><h2>Sr. $nome, seu cadastro foi realizado com sucesso!!!</h2></center>";        
 ?>
 
 

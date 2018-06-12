@@ -33,14 +33,14 @@
 
 <?php
 echo "<table>";
-echo "<tr><td><img src=imagens/caixaDeCambio.png>Caixa de Câmbio <br></td>";
-echo "<td><img src=imagens/diferencialCaminhao.jpg>Diferencial <br></td></tr>";
-echo "<tr><td><img src=imagens/setorHidraulico.jpg>Direções Hidraulicas <br></td>";
-echo "<td><img src=imagens/bombaHidraulica.jpeg>Bomba Hidraulica <br></td></tr>";
+echo "<td><img src=imagens/caixaDeCambio.png>Caixa de Câmbio <br></td>";
+echo "<td><img src=imagens/diferencialCaminhao.jpg>Diferencial <br></td>";
+echo "<td><img src=imagens/setorHidraulico.jpg>Direções Hidraulicas <br></td>";
+echo "<td><img src=imagens/bombaHidraulica.jpeg>Bomba Hidraulica <br></td>";
 echo "<tr><td><img src=imagens/motor.png>Motor <br></td>";
-echo "<td><img src=imagens/freios.png>Freios/Suspensão <br></td></tr>";
-echo "<tr><td><img src=imagens/servicoTorno.png>Serviços de Torno <br></td>";
-echo "<td><img src=imagens/reparos.png>Reparos Diversos <br></td></tr></table>";
+echo "<td><img src=imagens/freios.png>Freios/Suspensão <br></td>";
+echo "<td><img src=imagens/servicoTorno.png>Serviços de Torno <br></td>";
+echo "<td><img src=imagens/reparos.png>Reparos Diversos <br></td></table>";
 
 ?>
 <br><br>

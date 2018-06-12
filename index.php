@@ -31,7 +31,7 @@
 <li><a href=Servicos.php>Serviços</a></li>
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
-<li><a href=Cadastro.php>Cadastro</a></li>
+<li><a href=Cadastro.php>Cadastro Cliente</a></li>
 </ul></nav>
 <h1>Linha de Peças e Serviços</h1>
 <div>

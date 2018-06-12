@@ -102,14 +102,14 @@ if (isset($_POST['BTEnvia'])) {
 
        <nav aria-label="Paginação de navegação">
   <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="Servicos.php">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="Servicos.php">Anterior</a></li>
     <li class="page-item"><a class="page-link" href="index.php">1</a></li>
     <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
     <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
-     <li class="page-link"><a class="page-link" href="Contato.php">5</a></li>
+    <li class="page-link"><a class="page-link" href="Contato.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
-      <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
+    <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
     <li class="page-link"><a class="page-link" href="Administrador.php">Próximo</a></li>
     
   </ul>

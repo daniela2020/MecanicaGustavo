@@ -1,6 +1,5 @@
 
-<!DOCTYPE html>
-
+<!DOCTYPE html
 <html>
     <head>
         <meta charset="UTF-8">
@@ -27,7 +26,7 @@
 <li><a href=Administrador.php>Administrador</a></li>
 <li><a href=Cadastro.php>Cadastro Cliente</a></li>
 </ul></nav>
-        <br><br><br><br><br><br>
+        <br><br><br>
         <!--
        <form>
    Novo Usuário:<input type="text" name="nome"/><br>
@@ -89,23 +88,23 @@
        </form>   
 
         <!--FIM DA VALIDAÇÃO DO FORMULÁRIO      ---->
-        <br><br>
+     
         
         <!--apostila web2 pag8 -->
-        <form method="POST"><b><h2>Trabalhe Conosco</b></h2><br><br>
-        <br><b>Preencha os dados:</b><br/>
+        <form method="POST"><h1>Trabalhe Conosco</h1>
+        <br><b>Preencha os dados:</b><br><br>
            Nome:<input type="text" name="nome" /><br>
            Endereço:<input type="text" name="endereco" /><br>
            Cidade:<input type="text" name="cidade" /><br>
            Estado: <select name="estado">
                <option value="rs">RS</option>
                <option value="SC">SC</option>
-           </select><br>
-           <b><h2>Natureza do cargo:</h2></b><br>
+           </select><br><br>
+           <b>Natureza do cargo:</b><br><br>
            Oficina<input type="radio" name="natureza" value="Oficina" > 
            
            Loja <input type="radio" name="natureza" value="Loja" ><br><br>
-           Área:<br>
+           <b>Área:</b><br><br>
            <input type="checkbox" name="area[]" value="Mecânico">Mecânico:<br>
            <input type="checkbox" name="area[]" value="Auxiliar Mecânico">Auxiliar Mecânico: <br>
            <input type="checkbox" name="area[]" value="Vendedor">Vendedor: <br>
@@ -115,7 +114,6 @@
            <input type="submit" name="submit">
            <input type="reset" name="limpar">
        </form>
-
 
        <br>
        <?php
@@ -161,21 +159,12 @@
        }
 
 
-
-
        echo '</table>';
 
 
        fclose($handle);
        ?>
 
-
-  
-
-
- 
- 
- 
  <!--Aguardar por enquanto este xxxxxx 
   
 <form action="Script_do_Formulario.php" method="post">
@@ -363,32 +352,7 @@
 <input type="submit">
 <input type="reset" value="Limpar">
 </form> -->
- 
-        
-</body>
-</html>
 
-
-
-
-</body>
-</html>
-
-
-<?php
-
-
-
-?>
-
-
-        
-        
-        
-        
-        
-        
-<br><br>
 
 <nav aria-label="Page navigation example">
   <ul class="pagination">
@@ -400,8 +364,7 @@
     <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
     <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
-    <li class="page-link"><a class="page-link" href="">Próximo</a></li>
-    
+    <li class="page-link"><a class="page-link" href="Cadastro.php">Próximo</a></li>
   </ul>
 </nav>
 

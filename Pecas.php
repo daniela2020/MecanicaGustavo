@@ -47,7 +47,7 @@
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
     <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
-      <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
+    <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
     <li class="page-link"><a class="page-link" href="Servicos.php">Próximo</a></li>
     
   </ul>
