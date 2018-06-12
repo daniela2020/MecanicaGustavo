@@ -38,10 +38,10 @@
 </ul></nav>
 <br><br>
 
-  <form name="signup" method="post" action="cadastrando.php">
+  <form name="signup" method="post" action="cadastrando.php"> 
             Nome: <input type="text" name="nome" /><br/><br/>
         CPF: <input type="text" name="cpf" /><br/><br/>
-       Endereço: <input type="text" name="endereço" /><br/><br/>
+       Endereço <input type="text" name="endereco"><br/><br/>
         Cidade: <input type="text" name="cidade" /><br/><br/>
         E-mail: <input type="text" name="email" /><br/><br/>
         Senha: <input type="password" name="senha" /><br/><br/>

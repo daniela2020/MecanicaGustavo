@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -15,14 +16,14 @@
 
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     
     
   alert('Seja Bem-Vindo!');
   prev: '#anterior';
   next: '#proximo';
   
-</script>
+</script>-->
 <nav>
 <ul>
 <li><a href=index.php>Home</a></li>
@@ -35,22 +36,14 @@
 </ul></nav>
 
 
-
-
-
-
-
-
-
-
 <!--criando a conexão-->
 <?php
-$DB_URL = "jdbc:mysql://localhost/cadastro";
-$USER = "root";
-$PASS = "";
-$BANCO ="cadastro";
-$conexao = mysql_connect($DB_URL, $USER, $PASS) or dier (mysql_error());
-mysql_select_db($BANCO,$conexao) or die(mysql_error());
+//$DB_URL = "jdbc:mysql://localhost/cadastro";
+//$USER = "root";
+//$PASS = "";
+//$BANCO ="cadastro";
+
+$conexao = new mysqli("localhost", "root","","cadastro");
 ?>
 
 <!--VAI CAPTURAR OS DADOS DIGITADOS NO CADASTRO-->
@@ -58,12 +51,24 @@ mysql_select_db($BANCO,$conexao) or die(mysql_error());
     <?php
 $nome=$_POST['nome'];
 $cpf=$_POST['cpf'];
-$endereco=$_POST['endereco'];
+$endereco = $_POST['endereco'];
 $cidade=$_POST['cidade'];
 $email=$_POST['email'];
 $senha=$_POST['senha'];
-$sql = mysql_query ("INSERT INTO usuarios(nome,cpf, endereco, cidade,email,senha)
-        VALUES('$nome','$cpf' ,'$endereco' , ''$email', '$senha')");
+
+$stmt =  $conexao->prepare("INSERT INTO usuarios(nome,cpf, endereco, cidade,email,senha)
+        VALUES(?,?,?,?,?,?)");
+
+$stmt->bind_param("ssssss", $nome, $cpf, $endereco,$cidade,$email,$senha);
+
+    
+    $stmt->execute();
+
+    echo $conexao->error;
+    
+   
+
+
 echo "<center><h1>Cadastro realizado com sucesso!!</h1></center>";        
 ?>
 
