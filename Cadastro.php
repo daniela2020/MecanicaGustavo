@@ -41,10 +41,33 @@ ronaldo
         Senha: <input type="password" name="senha" /><br><br>
         <input type="submit" value="Cadastrar" />
                 </form>
-<?php
+        <?php
+       
+        $pdo = new PDO("mysql:host=localhost;dbname=cadastro", 'root', '');
 
-?>
 
+
+
+        $consulta = $pdo->query('SELECT * FROM usuarios;');
+
+        $pessoaArray = $consulta->fetchAll(PDO::FETCH_ASSOC);
+       // echo 'Resultado: <pre>' . print_r($pessoaArray, true) . '</pre><br>';
+        
+         
+        echo '<table border="1"><br>';
+        echo '---------------------------------<br>';
+foreach ($pessoaArray as $cliente){
+   echo '<tr>';
+   echo '<td>' . $cliente['nome'] .'</td>';
+   echo '<td>' . $cliente['cpf'] .'</td>';
+   echo '<td>' . $cliente['endereco'] .'</td>';
+   echo '<td>' . $cliente['cidade'] .'</td>';
+   echo '<td>' . $cliente['email'] .'</td>';
+   echo '<td>' . $cliente['senha'] .'</td>';
+   echo '</tr>';
+}
+echo '</table>';
+        ?>
 
 
 
