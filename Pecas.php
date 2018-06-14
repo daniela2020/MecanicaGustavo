@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="favicon.ico">
         <title>Mecânica Gustavo</title>
         <link rel="stylesheet" type="text/css"  href="stylle.css" />
-
     </head>
     <body>
-        <!-- vspace - define o tamanho da margem nas bordas superior e inferior da imagem.
-        hspace - define o tamanho da margem nas bordas esquerda e direita da imagem. -->
-        <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
-
 
         <img src="imagens/logo.png" vspace="10px" hspace="0px" border="5px" align="left"/>               
 
@@ -25,7 +19,9 @@
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
 <li><a href=Cadastro.php>Cadastro Cliente</a></li>
-</ul></nav>
+</ul>
+</nav>
+        
 <h1>Linha de Peças</h1>
 
 
@@ -33,6 +29,7 @@
     <br><p> Trabalhamos com uma linha completa de peças de ótima qualidade.</p><br>
     <br><p> Parcelamos as peças nos cartões.</p> <br>
 </section>
+
 <img src="imagens/pecas.png">
 
 <br><br>
@@ -45,10 +42,10 @@
     <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
     <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
-    <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
+    <li class="page-item"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
     <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
-    <li class="page-link"><a class="page-link" href="Servicos.php">Próximo</a></li>
+    <li class="page-item"><a class="page-link" href="Servicos.php">Próximo</a></li>
     
   </ul>
 </nav>
@@ -63,9 +60,6 @@ Copyright 2018 - Mecânica Gustavo <br/>
 </address>
 
 </footer>
-
-
-
 
                         </body>
                         </html>

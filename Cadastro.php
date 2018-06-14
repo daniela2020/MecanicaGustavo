@@ -8,15 +8,8 @@ ronaldo
         <link rel="icon" href="favicon.ico">
         <title>Sistema de Cadastro</title>
         <link rel="stylesheet" type="text/css"  href="stylle.css" />
-
     </head>
     <body>
-        
-      
-        <!-- vspace - define o tamanho da margem nas bordas superior e inferior da imagem.
-        hspace - define o tamanho da margem nas bordas esquerda e direita da imagem. -->
-        <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
-
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
 
@@ -29,7 +22,8 @@ ronaldo
 <li><a href=Contato.php>Contato</a></li>
 <li><a href=Administrador.php>Administrador</a></li>
 <li><a href=Cadastro.php>Cadastro de Clientes</a></li>
-</ul></nav>
+</ul>
+</nav>
 <br><br><br><br>
 
   <form name="signup" method="post" action="cadastrando.php"> <br><br>
@@ -44,8 +38,6 @@ ronaldo
         <?php
        
         $pdo = new PDO("mysql:host=localhost;dbname=cadastro", 'root', '');
-
-
 
 
         $consulta = $pdo->query('SELECT * FROM usuarios;');
@@ -68,15 +60,6 @@ foreach ($pessoaArray as $cliente){
 }
 echo '</table>';
         ?>
-
-
-
-
-
-
-
-
-
 
 <br><br>
 
@@ -104,9 +87,6 @@ Copyright 2018 - Mecânica Gustavo <br/>
 </address>
 
 </footer>
-
-
-
 
                         </body>
                         </html>

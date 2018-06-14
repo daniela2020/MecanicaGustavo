@@ -1,18 +1,12 @@
-
-<!DOCTYPE html
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <link rel="icon" href="favicon.ico">
         <title>Mecânica Gustavo</title>
         <link rel="stylesheet" type="text/css"  href="stylle.css" />
-
     </head>
     <body>
-        <!-- vspace - define o tamanho da margem nas bordas superior e inferior da imagem.
-        hspace - define o tamanho da margem nas bordas esquerda e direita da imagem. -->
-        <!-- <img src=Logo_Nova2.jpg> Imagem pequena do logo-->
-
 
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
 
@@ -361,10 +355,10 @@
     <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
     <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
     <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
-    <li class="page-link"><a class="page-link" href="Contato.php.php">5</a></li>
+    <li class="page-item"><a class="page-link" href="Contato.php.php">5</a></li>
     <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
     <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>
-    <li class="page-link"><a class="page-link" href="Cadastro.php">Próximo</a></li>
+    <li class="page-item"><a class="page-link" href="Cadastro.php">Próximo</a></li>
   </ul>
 </nav>
 
@@ -377,9 +371,6 @@ Copyright 2018 - Mecânica Gustavo <br/>
 </address>
 
 </footer>
-
-
-
 
                         </body>
                         </html>
