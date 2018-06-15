@@ -71,27 +71,27 @@ if (isset($_POST['BTEnvia'])) {
 } 
 ?>
 	
-	<form action="<? $PHP_SELF>" method="POST"> 
-	<p> <br/> 
-		Nome:<br/> 
-                <input type="text" size="30" name="nome" required=""> 
-	</p>   
-	<p> 
-		E-mail:<br/> 
-                <input type="text" size="30" name="email" required="">		
-	</p>   
-	<p> 
-		Telefone:<br/> 
-                <input type="text" size="30" name="telefone" required=""> 
-	</p>   
-	<p> 
-		Mensagem:<br/> 
-                <textarea name="mensagem" placeholder="Digite sua mensagem" required=""></textarea> 
-	</p>   
-	<p>
+	<form action="processa.php" method="POST"> 
+	 <br/> 
+            <label>Nome</label><br>
+        	 
+            <input type="text" name="nome" required=""> <br>
+                
+                <label>E-mail</label><br>	 
+	 
+                <input type="email" name="email" required=""><br>		
+	   
+                <label>Telefone</label><br>
+		
+                <input type="text" name="telefone" required=""><br> 
+	
+                <label>Mensagem</label><br>
+                 
+                <textarea name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem" required=""></textarea><br>
+	  
           <input type="submit" name="BTEnvia" value="Enviar"> 
 	  <input type="reset" name="BTApaga" value="Apagar">
-        </p>
+
         </form>
   
         <br><br><br>  
