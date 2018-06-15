@@ -27,12 +27,12 @@ ronaldo
 <br><br><br><br>
 
   <form name="signup" method="post" action="cadastrando.php"> <br><br>
-        Nome: <input type="text" name="nome" /><br><br>
-        CPF: <input type="text" name="cpf" /><br><br>
-        Endereço <input type="text" name="endereco"><br><br>
-        Cidade: <input type="text" name="cidade" /><br><br>
-        E-mail: <input type="text" name="email" /><br><br>
-        Senha: <input type="password" name="senha" /><br><br>
+      Nome: <input type="text" name="nome"  required="" /><br><br>
+      CPF: <input type="text" name="cpf"  required=""/><br><br>
+      Endereço <input type="text" name="endereco" required=""><br><br>
+      Cidade: <input type="text" name="cidade" required="" /><br><br>
+      E-mail: <input type="text" name="email" required=""/><br><br>
+      Senha: <input type="password" name="senha" required="" /><br><br>
         <input type="submit" value="Cadastrar" />
                 </form>
         <?php
