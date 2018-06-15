@@ -14,7 +14,7 @@
         $mensagem= $_POST['mensagem'];
         ?>
         <?php
-         $to =  "ronaldozgaucho04@gmail.com";
+         $to =  "financeiro@mecanicagustavo.com.br";
          $subject = "Mensagem de contato";
          $message = "Olá, Ronaldo, <br><br> Nova mensagem de contato.<br><br>Nome:$nome<br>Email:$email<br>Telefone:$telefone<br>Mensagem:$mensagem";
          $header = "MIME-Version:1.0\n";
