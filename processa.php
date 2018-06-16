@@ -20,7 +20,7 @@
          $header = "MIME-Version:1.0\n";
          $header .= "Content-type: text/html; charset=iso-8859-1\n";
          $header .= "From: $email\n"; 
-         $mail ($to,$subject,$message,$header);
+         $email = mail($to,$subject,$message,$header);
          echo "Mensagem enviada com sucesso!!!!";
          
          
