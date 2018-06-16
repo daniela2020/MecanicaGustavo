@@ -76,7 +76,7 @@
         </nav>
 
         <?php
-        echo '---------------------------------<br>';
+        echo '-------------------------------<br>';
         $pdo = new PDO("mysql:host=localhost;dbname=cadastro", 'root', '');
 
 

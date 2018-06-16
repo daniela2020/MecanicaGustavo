@@ -47,7 +47,13 @@ ronaldo
         
          
         echo '<table border="1"><br>';
-        echo '---------------------------------<br>';
+        echo  '<td> Nome <br>';
+        echo  '<td> CPF <br>';
+        echo  '<td> Endereco <br>';
+        echo  '<td> Cidade <br>';
+        echo  '<td> e_mail <br>';
+        echo  '<td> Senha <br>';
+        
 foreach ($pessoaArray as $cliente){
    echo '<tr>';
    echo '<td>' . $cliente['nome'] .'</td>';
