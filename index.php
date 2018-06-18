@@ -8,92 +8,93 @@
 
     </head>
     <body>
-        
+
         <img src="imagens/logo.png" vspace="10px" hspace="5px" border="5px" align="left"/>
-        
-        
-<script type="text/javascript">
-    
-    
-  alert('Seja Bem-Vindo!');
-  prev: '#anterior';
-  next: '#proximo';
-  
-</script>
-<nav>
-<ul>
-<li><a href=index.php>Home</a></li>
-<li><a href=Empresa.php>Empresa</a></li>
-<li><a href=Pecas.php>Peças</a></li>
-<li><a href=Servicos.php>Serviços</a></li>
-<li><a href=Contato.php>Contato</a></li>
-<li><a href=Administrador.php>Administrador</a></li>
-<li><a href=Cadastro.php>Cadastro Cliente</a></li>
-</ul>
-</nav>
-<h1>Linha de Peças e Serviços</h1>
-<div>
- <table>
-        <thead>
-                <tr>
+
+
+        <script type="text/javascript">
+
+
+            alert('Seja Bem-Vindo!');
+            prev: '#anterior';
+            next: '#proximo';
+
+        </script>
+        <nav>
+            <ul>
+                <li><a href=index.php>Home</a></li>
+                <li><a href=Empresa.php>Empresa</a></li>
+                <li><a href=Pecas.php>Peças</a></li>
+                <li><a href=Servicos.php>Serviços</a></li>
+                <li><a href=Contato.php>Contato</a></li>
+                <li><a href=Administrador.php>Administrador</a></li>
+                <li><a href=Cadastro.php>Cadastro Cliente</a></li>
+            </ul>
+        </nav>
+        <h1>Linha de Peças e Serviços</h1>
+        <div>
+            <table>
+                <thead>
+                    <tr>
                         <th><img src="images/MERCEDES.jpg" /><br>Mercedes-Bens</th><br>
-                        <th><img src="images/VOLKSWAGEM.jpg" /><br>Volkswagem</th>
-                        <th><img src="images/VOLVO.jpg" /><br>Volvo<br></th>
-                        <th><img src="images/FORD.jpg" /><br>Ford</th>
-						<th><img src="images/RENAULT.jpg" /><br>Renault</th>
-						<th><img src="images/PEUGEOT.jpg" /><br>Peugeot</th>
-						<th><img src="images/MARCOPOLO.jpg" /><br>Marcopolo<br></th>
-						 
-                        
-						
+                <th><img src="images/VOLKSWAGEM.jpg" /><br>Volkswagem</th>
+                <th><img src="images/VOLVO.jpg" /><br>Volvo<br></th>
+                <th><img src="images/FORD.jpg" /><br>Ford</th>
+                <th><img src="images/RENAULT.jpg" /><br>Renault</th>
+                <th><img src="images/PEUGEOT.jpg" /><br>Peugeot</th>
+                <th><img src="images/MARCOPOLO.jpg" /><br>Marcopolo<br></th>
+
+
+
                 </tr><br>
-				<tr>
-                         <th><img src="images/IVECO.jpg" /><br>Iveco</th>
-						 <th><img src="images/SCANIA.jpg" /><br>scania</th>    
-                        <th><img src="images/MITSUBISHI.jpg" />	<br>Mitsubishi</th>
-                        						
-						<th><img src="images/CHEVROLET.jpg" /><br>Chevrolet</th>
-						 <th><img src="images/TOYOTA.jpg" /><br>Toyota</th>           
-						<th><img src="images/NISSAN.jpg" /><br>Nissan Frontier<br></th>          
-						<th><img src="images/DODGE RAM.jpg" /><br>Dodge Ram<br></th>
-						
+                <tr>
+                    <th><img src="images/IVECO.jpg" /><br>Iveco</th>
+                    <th><img src="images/SCANIA.jpg" /><br>scania</th>    
+                    <th><img src="images/MITSUBISHI.jpg" />	<br>Mitsubishi</th>
+
+                    <th><img src="images/CHEVROLET.jpg" /><br>Chevrolet</th>
+                    <th><img src="images/TOYOTA.jpg" /><br>Toyota</th>           
+                    <th><img src="images/NISSAN.jpg" /><br>Nissan Frontier<br></th>          
+                    <th><img src="images/DODGE RAM.jpg" /><br>Dodge Ram<br></th>
+
                 </tr>
-        </thead>
-       
-       
-</table>
-
-</div>
-<br><br>
+                </thead>
 
 
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="">Anterior</a></li>
-    <li class="page-item"><a class="page-link" href="index.php">1</a></li>
-    <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
-    <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
-    <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
-    <li class="page-item"><a class="page-link" href="Contato.php">5</a></li>
-    <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
-    <li class="page-item"><a class="page-link" href="Empresa.php">Próximo</a></li>
-  </ul>
-</nav>
+            </table>
+
+        </div>
+        <br><br>
 
 
-<footer>
-<address>
-Fones: 55 3312 3127 . 55 99961 2384 . 55 99905 2001 <br>
-E-Mail: mecanicagustavo@mecanicagustavo.com.br<br>
-Avenida Ipiranga, 536 Bairro Kurtz -Santo Ângelo-RS<br>
-Copyright 2018 - Mecânica Gustavo <br/>
-</address>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="index.php">1</a></li>
+                <li class="page-item"><a class="page-link" href="Empresa.php">2</a></li>
+                <li class="page-item"><a class="page-link" href="Pecas.php">3</a></li>
+                <li class="page-item"><a class="page-link" href="Servicos.php">4</a></li>
+                <li class="page-item"><a class="page-link" href="Contato.php">5</a></li>
+                <li class="page-item"><a class="page-link" href="Administrador.php">6</a></li>
+                <li class="page-item"><a class="page-link" href="Cadastro.php">7</a></li>    
+                <li class="page-item"><a class="page-link" href="Empresa.php">Próximo</a></li>
+            </ul>
+        </nav>
 
-</footer>
+
+        <footer>
+            <address>
+                Fones: 55 3312 3127 . 55 99961 2384 . 55 99905 2001 <br>
+                E-Mail: mecanicagustavo@mecanicagustavo.com.br<br>
+                Avenida Ipiranga, 536 Bairro Kurtz -Santo Ângelo-RS<br>
+                Copyright 2018 - Mecânica Gustavo <br/>
+            </address>
+
+        </footer>
 
 
 
 
-                        </body>
-                        </html>
+    </body>
+</html>
 
